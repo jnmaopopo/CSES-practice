@@ -22,3 +22,7 @@ Input:
 
 Output:
 4
+
+One line explaination:
+
+dp[i] is the number of combination of outcomei i, dp[i] = sum(dp[i-j]) for j in [1,6] if we consider the last dice is j.
