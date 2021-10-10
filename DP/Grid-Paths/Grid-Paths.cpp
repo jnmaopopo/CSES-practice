@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-  
 int MOD = 1000000007;
 
 int gridPaths(vector<vector<char>> grid) {
