@@ -12,12 +12,22 @@ void putl(T&&... args) { ((cout << args << " "), ...); cout<<'\n';}
 void err(istream_iterator<string> it) {}
 template<typename T, typename... Args>
 void err(istream_iterator<string> it, T a, Args... args) {cerr << *it << "=" << a << ", "; err(++it, args...);}
+
+// -----------TYPE DEFINE------
+typedef long long ll;
+typedef long double ld;
+typedef pair<int, int> pi;
+typedef pair<ll,ll> pl;
+typedef pair<ld,ld> pd;
+typedef vector<pi> vpi;
 //----------MACROS----------
 #define seea(a,x,y) for(int i=x;i<y;i++){cin>>a[i];}
 #define seev(v,n) for(int i=0;i<n;i++){int x; cin>>x; v.push_back(x);}
 #define sees(s,n) for(int i=0;i<n;i++){int x; cin>>x; s.insert(x);}
-#define print(a) cout << a << endl;
+#define all(x) x.begin(),x.end()
+#define rep(i,a,b) for (int i=a; i<b; ++i)
+#define rev(i,a,b) for (int i=a; i>b; --i)
+#define trav(a, x) for (auto& a : x)
 
 int main() {
-    
 }
