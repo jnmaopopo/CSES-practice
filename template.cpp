@@ -21,6 +21,14 @@ typedef pair<ll,ll> pl;
 typedef pair<ld,ld> pd;
 typedef vector<pi> vpi;
 //----------MACROS----------
+#define mp make_pair
+#define pb push_back
+#define f first
+#define s second
+#define lb lower_bound
+#define ub upper_bound
+
+
 #define seea(a,x,y) for(int i=x;i<y;i++){cin>>a[i];}
 #define seev(v,n) for(int i=0;i<n;i++){int x; cin>>x; v.push_back(x);}
 #define sees(s,n) for(int i=0;i<n;i++){int x; cin>>x; s.insert(x);}
@@ -28,6 +36,12 @@ typedef vector<pi> vpi;
 #define rep(i,a,b) for (int i=a; i<b; ++i)
 #define rev(i,a,b) for (int i=a; i>b; --i)
 #define trav(a, x) for (auto& a : x)
+
+
+const int MOD = 1000000007; // 998244353
+const ll INF = 1e18;
+const int MX = 200005;
+const ld PI = 4*atan((ld)1);
 
 int main() {
 }
